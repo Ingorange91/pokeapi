@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+
+.header{
+    background-color: #48e;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    color: #fff;
+    height: 50px;
+}
+
+.icon{
+    padding: .20em;
+}
+
+.men{
+    margin-right: .15em;
+}
+
+
+
+.header__nav{
+    background-color: #48e;
+    text-align: center;
+    height: 100vh;     
+    display: none;
+}
+
+.header__nav li{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header__nav li a{
+    color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    padding: 2em;
+}
+
+
+/* pk api */
+.btn_pkn{
+    padding: 1em;
+    border: 1em;
+    background-color: #24a;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
